@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+:root {
+    --primary-color:#0a000f;
+    --off-white: #F4F4F5;
+}
+
+body {
+    background-image: url("images/avatar3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Love Ya Like A Sister', cursive;
+    margin: 0;
+   }
+
+
+/* Header    */
+.header-topleft{
+  width: 23rem;
+  height: 5.5rem;
+}
+
+.header {
+    background-color: var(--primary-color);
+    padding: 0.2rem 2rem 0.2rem 0rem;
+    border-bottom-right-radius: 4rem;
+    text-align: center;
+    color:white;
+}
+
+.header h1{
+  font-weight: normal;
+}
+
+
+.prologue{
+  width: 18rem;
+  padding-left: 10px;
+  color: var(--off-white);
+}
+
+.prologue-head{
+  text-align: center;
+  background-color: var(--primary-color);
+  border-radius: 0.6rem;
+}
+
+.PH{
+  padding: 0.2rem 0rem;
+}
+  
+  .txtarea-container{
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+  }
+
+  #txt-input{
+    opacity: 0.3;
+    background-color: white;
+    border-radius: 20px;
+    height: 5rem;
+    width: 25rem;
+    padding: 20px;
+    margin: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:'Love Ya Like A Sister', cursive;
+  }
+
+  .offwhite-text{
+    color: var(--off-white);
+    font-size: large;
+    padding-left: 19px;
+}
+
+.output-container{
+    padding-left: 64vw;
+    margin: none;
+}
+
+#output {
+  opacity: 0.3;
+  border: none;
+  padding: 20px;
+  border-radius: 20px;
+  height: 7rem;
+  width: 25rem;
+  background-color: white;
+  display: block;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color:#171717;
+}
+  
+.btn-container{
+  padding-left: 19.5rem;
+
+}
+
+  #btn-translate {
+    display: block;
+    margin: none;
+    height: 3rem;
+    font-size: large;
+    color: red;
+    padding: 15px 10px;
+    font-family:cursive;
+    border-radius: 12px;
+    background-color: var(--primary-color);
+  }
+
+  #btn-translate:hover{
+    background-color: var(--off-white);
+    font-weight: bold;
+  }
+
+
+
+/** footers **/
+.footer {
+    position: fixed;
+    bottom:0px;
+    padding: 0.2rem;
+    border-radius: 1.7rem;
+    width: 30rem;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.footer-Container{
+    padding-left: 32rem;
+}
+
+.footer .link {
+  color:red;
+  font-size: large;
+  text-decoration: none;
+  padding-right: 20px;
+  font-size: large;
+}
+
+.footer ul{
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.footer li{
+  display: inline;
+}
+
+.footer .link:hover{
+  color:#F59E0B;
+}
+
+mark {
+    background-color:var(--off-white);
+    padding: 0.4rem 0.6rem;
+    border: 3px solid red; 
+    border-radius: 1rem;
+  }
+
